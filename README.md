@@ -24,3 +24,6 @@ The server is auto-reloading so no need to restart it manually after making chan
 # Writing mocks
 Magick-mock make use of Express.js so check its docs for . Routes.js contains some example routes.
 
+# License
+
+This projected is licensed under the terms of the MIT license.
