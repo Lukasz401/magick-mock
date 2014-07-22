@@ -1,0 +1,15 @@
+{
+    "name": "magick-mock",
+    "description": "mock+proxy development aiding server",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "grunt": "0.4.x",
+        "grunt-express-server": "*",
+        "grunt-contrib-watch": "*",        
+        "express": "3.x",
+        "request": "2.30.x",
+        "lodash-node": "2.4.x",
+        "moment": "2.5.x"
+    }
+}
