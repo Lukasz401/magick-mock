@@ -20,11 +20,11 @@ The mock has two modes:
  - proxy only - will ignore defined routes and pass through all traffic to 
    chosen destination service
 
-Run in proxy+mocks run:
+Run in proxy+mocks:
 
  	grunt mock
 
-Run in proxy only run:
+Run in proxy only:
  
  	grunt proxy
 
