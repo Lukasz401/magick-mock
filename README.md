@@ -9,21 +9,22 @@ be very easily mocked.
 
 # Run
 
-Fist install dependencies
+Fist install dependencies:
 
     npm install
 
 The mock has two modes:
+ 
  - proxy+mocks - will pass through, to the chosen service (url), all routes 
    except the ones that are mocked in routes.js file
  - proxy only - will ignore defined routes and pass through all traffic to 
    chosen destination service
 
- Run in proxy+mocks run:
+Run in proxy+mocks run:
 
  	grunt mock
 
- Run in proxy only run:
+Run in proxy only run:
  
  	grunt proxy
 
