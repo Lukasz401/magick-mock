@@ -30,11 +30,19 @@ The mock has two modes:
 The server is auto-reloading.
 
 By default it listens on port 8090 and the proxied service is defined as
-http://localhost:8000. Change both to your liking in `server.js` module.
+http://localhost:8000. Change both to your liking in the `server.js` module.
 
 # Mock endpoints
 
-It very easy. Check Express.js docs. Routes.js contains example route.
+It is very easy. Define mocks in the `routes.js` module.
+
+Example mock endpoint:
+
+    app.get('/hello', middleware, function(req, res) {
+        res.json({ msg: 'Hey there!' });
+    });
+
+Check Express.js docs for more details.
 
 # License
 
